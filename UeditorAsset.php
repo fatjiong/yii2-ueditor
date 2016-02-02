@@ -5,9 +5,6 @@ use yii\web\AssetBundle;
 use fatjiong;
 
 class UeditorAsset extends AssetBundle{
-    /*
-     * @inheritdoc
-     */
     public $sourcePath='@fatjiong\ueditor\assets';
 
     public $css=[
