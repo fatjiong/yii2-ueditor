@@ -1,19 +1,19 @@
 <?php
 /**
  * 
- * @author 	wenyuan 
- * Email 	liucunzhou@163.com
- * qq		1510033691
+ * @author 	fatjiong 
+ * Email 	757970599@qq.com
+ * QQ		757970599
  *
  */
-namespace wenyuan\ueditor;
+namespace fatjiong\ueditor;
 
 use Yii;
 use yii\widgets\InputWidget;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
-use wenyuan\ueditor\UeditorAsset;
+use fatjiong\ueditor\UeditorAsset;
 
 class Ueditor extends InputWidget
 {
@@ -40,7 +40,7 @@ class Ueditor extends InputWidget
     	}
     	
     	$this->events = $this->options;
-    	\Yii::setAlias('@wenyuan\ueditor\assets', '@vendor/wenyuan/yii2-ueditor/assets');
+    	\Yii::setAlias('@fatjiong\ueditor\assets', '@vendor/fatjiong/yii2-ueditor/assets');
         if(empty($this->name)){
             $this->name=$this->hasModel() ? Html::getInputName($this->model, $this->attribute): $this->id;
         }

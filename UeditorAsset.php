@@ -1,17 +1,17 @@
 <?php
-namespace wenyuan\ueditor;
+namespace fatjiong\ueditor;
 
 use yii\web\AssetBundle;
-use wenyuan;
+use fatjiong;
 
 class UeditorAsset extends AssetBundle{
     /*
      * @inheritdoc
      */
-    public $sourcePath='@wenyuan\ueditor\assets';
+    public $sourcePath='@fatjiong\ueditor\assets';
 
     public $css=[
-        'css/ueditor.min.css',  
+        'themes/default/css/ueditor.min.css',  
     ];
     
     public $js=[
